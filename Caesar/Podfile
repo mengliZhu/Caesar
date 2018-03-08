@@ -1,0 +1,24 @@
+
+# platform :ios, '8.0'
+
+inhibit_all_warnings!
+
+def zyb_pods
+pod 'ReactiveCocoa', '~>2.1.0'
+pod 'TTTAttributedLabel', '~> 1.13.4'
+pod 'pop', '~> 1.0.9'
+pod 'FMDB', '~> 2.5.0'
+pod 'AFNetworking-RACExtensions', :git => 'https://github.com/knshiro/AFNetworking-RACExtensions.git'
+pod 'XXNibBridge', '~> 2.3.0'
+pod 'KVOController'
+pod 'Masonry', '~> 1.1.0'
+pod 'FLAnimatedImage', '~> 1.0.12'
+pod 'FDStackView', '~> 1.0'
+pod 'YYCategories','~> 1.0.4'
+pod 'YYModel','~> 1.0.4'
+pod 'lottie-ios'
+end
+
+target 'Caesar' do
+  zyb_pods
+end
