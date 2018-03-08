@@ -1,0 +1,92 @@
+PODS:
+  - AFNetworking (2.6.3):
+    - AFNetworking/NSURLConnection (= 2.6.3)
+    - AFNetworking/NSURLSession (= 2.6.3)
+    - AFNetworking/Reachability (= 2.6.3)
+    - AFNetworking/Security (= 2.6.3)
+    - AFNetworking/Serialization (= 2.6.3)
+    - AFNetworking/UIKit (= 2.6.3)
+  - AFNetworking-RACExtensions (0.1.3):
+    - AFNetworking (~> 2.0)
+    - ReactiveCocoa (~> 2.0)
+  - AFNetworking/NSURLConnection (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.6.3)
+  - AFNetworking/Security (2.6.3)
+  - AFNetworking/Serialization (2.6.3)
+  - AFNetworking/UIKit (2.6.3):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - FDStackView (1.0.1)
+  - FLAnimatedImage (1.0.12)
+  - FMDB (2.5):
+    - FMDB/standard (= 2.5)
+  - FMDB/common (2.5)
+  - FMDB/standard (2.5):
+    - FMDB/common
+  - KVOController (1.2.0)
+  - lottie-ios (2.5.0)
+  - Masonry (1.1.0)
+  - pop (1.0.10)
+  - ReactiveCocoa (2.1.8):
+    - ReactiveCocoa/Core (= 2.1.8)
+    - ReactiveCocoa/no-arc (= 2.1.8)
+  - ReactiveCocoa/Core (2.1.8):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.1.8)
+  - TTTAttributedLabel (1.13.4)
+  - XXNibBridge (2.3.1)
+  - YYCategories (1.0.4):
+    - YYCategories/no-arc (= 1.0.4)
+  - YYCategories/no-arc (1.0.4)
+  - YYModel (1.0.4)
+
+DEPENDENCIES:
+  - AFNetworking-RACExtensions (from `https://github.com/knshiro/AFNetworking-RACExtensions.git`)
+  - FDStackView (~> 1.0)
+  - FLAnimatedImage (~> 1.0.12)
+  - FMDB (~> 2.5.0)
+  - KVOController
+  - lottie-ios
+  - Masonry (~> 1.1.0)
+  - pop (~> 1.0.9)
+  - ReactiveCocoa (~> 2.1.0)
+  - TTTAttributedLabel (~> 1.13.4)
+  - XXNibBridge (~> 2.3.0)
+  - YYCategories (~> 1.0.4)
+  - YYModel (~> 1.0.4)
+
+EXTERNAL SOURCES:
+  AFNetworking-RACExtensions:
+    :git: https://github.com/knshiro/AFNetworking-RACExtensions.git
+
+CHECKOUT OPTIONS:
+  AFNetworking-RACExtensions:
+    :commit: d4c6097d3f22be212c66339f850b1be180162747
+    :git: https://github.com/knshiro/AFNetworking-RACExtensions.git
+
+SPEC CHECKSUMS:
+  AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
+  AFNetworking-RACExtensions: b9b18c486fe4e257fb6c1ce6a848e82581af2170
+  FDStackView: fc0697e5be2022c8af36ce66e9e2061006058ba8
+  FLAnimatedImage: 4a0b56255d9b05f18b6dd7ee06871be5d3b89e31
+  FMDB: 96e8f1bcc1329e269330f99770ad4285d9003e52
+  KVOController: d72ace34afea42468329623b3379ab3cd1d286b6
+  lottie-ios: d699fdee68d7b63e721d949388b015fef1aaa4ac
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  pop: 82ca6b068ce9278fd350fd9dd09482a0ce9492e6
+  ReactiveCocoa: f89f2e009a87951b50321bf9feb958823fcc617e
+  TTTAttributedLabel: 0a2ac7b2dd726d32a070dafb01446026b11e624f
+  XXNibBridge: addb780e6db076eb2c61716aa60b176a6799b80f
+  YYCategories: 6bcd4314c6661a561410dce4a793379ebd306abd
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
+
+PODFILE CHECKSUM: 888a8f9ef0bf00ed1e7f5a83ea38d66a4f49e5a6
+
+COCOAPODS: 1.4.0
